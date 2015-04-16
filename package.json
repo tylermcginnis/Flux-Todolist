@@ -1,0 +1,21 @@
+{
+  "name": "mini-todoflux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReactWeek/mini4-todoflux"
+  },
+  "author": "Tyler McGinnis",
+  "dependencies": {
+    "axios": "^0.4.2",
+    "events": "^1.0.2",
+    "flux": "^2.0.1",
+    "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.5.3"
+  }
+}
