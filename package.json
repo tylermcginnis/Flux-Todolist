@@ -8,6 +8,11 @@
     "url": "https://github.com/ReactWeek/mini4-todoflux"
   },
   "author": "Tyler McGinnis",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "./node_modules/.bin/webpack",
+    "dev-server": "node_modules/.bin/http-server -p 3000 public/"
+  },
   "dependencies": {
     "axios": "^0.4.2",
     "events": "^1.0.2",
@@ -16,6 +21,7 @@
   },
   "devDependencies": {
     "jsx-loader": "^0.12.2",
-    "webpack": "^1.5.3"
+    "webpack": "^1.5.3",
+    "http-server": "^0.8.0"
   }
 }
